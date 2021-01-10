@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="Item-header">All Items<span class="flash-msg"></span></h1>
+  </header>
+  <div class="body">
+    <div class="product-block"></div>
+    <div class="calculation-block">
+      <div class="cart-items">
+        <div class="cart-items-header flex-justify-content">
+          <p class="items">Items</p>
+          <p class="qty">Qty</p>
+          <p class="price">Price</p>
+        </div>
+      </div>
+      <div class="cart-total">
+        <div class="cart-total-box">
+          <h3 class="total-header">Total</h3>
+          <div class="cart-total-items flex-justify-content">
+            <p>Items[<span class="cart-items-count">0</span>]</p>
+            <p>:</p>
+            <p class="cart-total-items-display-price">0</p>
+          </div>
+          <div class="cart-total-discount flex-justify-content">
+            <p>Discount</p>
+            <p>:</p>
+            <p class="cart-total-items-discount-price">0</p>
+          </div>
+        </div>
+        <div class="cart-total-value flex-justify-content">
+          <p>Order Total</p>
+          <p>:</p>
+          <p class="cart-total-items-price">0</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="snackbar.js"></script>
+  <script src="item.js"></script>
+  <script src="cart-item.js"></script>
+  <script src="cart.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
